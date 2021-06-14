@@ -68,7 +68,8 @@ def demande_continuer():
     string1 = "Oui"
     if reponse == string1.lower():
         return True
-    return False
+    else:
+        return False
 
 
 
